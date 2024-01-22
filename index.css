@@ -1,0 +1,125 @@
+.heading-container {
+  margin: 20px 9% 20px 9%;
+  background-color: lightblue;
+}
+
+.heading-h2,
+.heading-h5 {
+  text-align: left;
+  /* font-size: 36px; */
+  font-weight: bold;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  padding-top: 1%;
+}
+
+.heading-container p {
+
+  text-align: left;
+  font-size: 14px;
+  font-weight: normal;
+  color: #000;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  /* padding: 1%; */
+}
+
+.content-container {
+  margin: 20px 10% 20px 10%;
+
+}
+
+.content-container h5 {
+  background-color: lightblue;
+
+  font-weight: bold;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  padding: 1%;
+}
+
+.content-container p {
+
+  text-align: left;
+  font-size: 14px;
+  font-weight: normal;
+  color: #000;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  /* padding: 1%; */
+}
+
+.content-container ul {
+
+  text-align: left;
+  font-size: 14px;
+  font-weight: normal;
+  color: #000;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  list-style: circle;
+
+  /* padding: 1%; */
+}
+
+.content-container li {
+  margin: 0 12% 0 12%;
+}
+
+.content-container h6 {
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.course-title {
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+
+.certificate {
+  width: 90%;
+  margin-bottom: 25%;
+  height: 25%;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 120px;
+
+}
+
+.signature {
+  text-align: right;
+  font-size: 14px;
+  font-weight: normal;
+  color: #000;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+@media screen and (max-width : 900px) {
+  .heading-h2 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    padding-top: 1%;
+  }
+
+  .heading-h5 {
+    font-size: 14px;
+  }
+}
